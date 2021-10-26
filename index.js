@@ -112,7 +112,7 @@ instance.prototype.init_tcp = function() {
 		});
 
 		self.tcp.on('data', function (data) {
-			console.log("Data from PTZoptics VISCA: ", data);
+			console.log("Data from Latteau VISCA: ", data);
 		});
 
 		debug(self.tcp.host + ':' + self.config.port);
@@ -160,7 +160,7 @@ instance.prototype.config_fields = function () {
 			id: 'info',
 			width: 12,
 			label: 'Information',
-			value: 'This module controls PTZ cameras with VISCA over IP protocol'
+			value: 'This module controls latteau PTZ cameras with VISCA over IP protocol'
 		},
 		{
 			type: 'textinput',
@@ -999,7 +999,7 @@ instance.prototype.actions = function(system) {
 			options: [
 				{
 					type: 'textinput',
-					label: 'Please refer to PTZOptics VISCA over IP command document for valid commands.',
+					label: 'Please refer to Latteau VISCA over IP command documentation for valid commands.',
 					id: 'custom',
 					regex: '/^81 ?([0-9a-fA-F]{2} ?){3,13}[fF][fF]$/',
 					width: 6
