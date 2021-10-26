@@ -953,11 +953,11 @@ instance.prototype.actions = function(system) {
 			]
 		},
 		'power': {
-			label: 'power camera',
+			label: 'Power Standby The Camera',
 			options: [
 				{
 					type: 'dropdown',
-					label: 'power on/off',
+					label: 'Power Standby on/off',
 					id: 'bool',
 					choices: [{ id: 'off', label:'off'},{ id: 'on', label:'on'}]
 				}
@@ -981,10 +981,10 @@ instance.prototype.actions = function(system) {
 			]
 		},
 		'wbOPT': {
-			label: 'White balance one push trigger',
+			label: 'White Balance One Push Trigger',
 		},
 		'awbS':           {
-			label: 'Auto white balance sensitivity',
+			label: 'Auto White Balance Sensitivity',
 			options: [
 				{
 					type: 'dropdown',
