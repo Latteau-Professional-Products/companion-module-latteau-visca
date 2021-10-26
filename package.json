@@ -8,7 +8,7 @@
 	"manufacturer": "Latteau",
 	"product": "VISCA",
 	"shortname": "visca",
-	"description": "Module to control PTZ cameras with Latteau Visca protocol over IP",
+	"description": "Module to control Latteau PTZ cameras with the Visca over IP protocol",
 	"main": "index.js",
 	"sponsored": [ "Mike Latta <mike@crosstracks.org>" ],
 	"scripts": {
