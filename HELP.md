@@ -1,6 +1,6 @@
-# companion-module-ptzoptics-visca
+# companion-module-latteau-visca
 
-This module can be used to control PTZ camera's with the Sony VISCA protocol.
+This module can be used to control Latteau PTZ camera's with the Sony VISCA protocol.
 
 ## Commands
 
