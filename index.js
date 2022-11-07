@@ -160,7 +160,7 @@ instance.prototype.config_fields = function () {
 			id: 'info',
 			width: 12,
 			label: 'Information',
-			value: 'This module controls latteau PTZ cameras with VISCA over IP protocol'
+			value: 'This module controls Latteau PTZ Cameras using the VISCA over IP protocol'
 		},
 		{
 			type: 'textinput',
