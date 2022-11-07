@@ -1,14 +1,14 @@
 {
-	"name": "latteau-visca",
+	"name": "Latteau-PTZ-Visca",
 	"version": "1.0",
 	"api_version": "1.0.0",
 	"keywords": [
 		"Protocol",
 		"Camera" ],
-	"manufacturer": "Latteau",
+	"manufacturer": "Latteau Professional Products",
 	"product": "VISCA",
-	"shortname": "visca",
-	"description": "Module to control Latteau PTZ cameras with the Visca over IP protocol",
+	"shortname": "Visca",
+	"description": "Module to control Latteau PTZ cameras using the Visca over IP protocol",
 	"main": "index.js",
 	"sponsored": [ "Mike Latta <mike@crosstracks.org>" ],
 	"scripts": {
