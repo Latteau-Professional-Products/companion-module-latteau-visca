@@ -1,4 +1,4 @@
 # companion-module-latteau-visca
 Bit-Focus Companion Module for Latteau PTZ Cameras
 
-See HELP.md and LICENSE
+See companion/HELP.md and LICENSE for more information

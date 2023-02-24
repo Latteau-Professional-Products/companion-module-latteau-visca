@@ -1,3 +1,12 @@
+/*
+ * Companion instance class Latteau-PTZ-Camera-Visca
+ * Module to control Latteau PTZ cameras using the Sony VISCA over IP protocol
+ *
+ * @extends InstanceBase
+ * @version 1.0.0
+ * @author Mike Latta <mike@crosstracks.org>
+ */
+
 var instance_skel = require('../../instance_skel');
 var tcp           = require('../../tcp');
 var debug;
@@ -160,19 +169,19 @@ instance.prototype.config_fields = function () {
 			id: 'info',
 			width: 12,
 			label: 'Information',
-			value: 'This module controls Latteau PTZ Cameras using the VISCA over IP protocol'
+			value: 'This module controls Latteau PTZ Cameras using the Sony VISCA over IP protocol'
 		},
 		{
 			type: 'textinput',
 			id: 'host',
-			label: 'Camera IP',
+			label: 'Latteau Camera IP Address',
 			width: 6,
 			regex: self.REGEX_IP
 		},
 		{
 			type: 'textinput',
 			id: 'port',
-			label: 'VISCA TCP port',
+			label: 'Latteau Camera VISCA TCP port',
 			width: 6,
 			default: 5678,
 			regex: self.REGEX_PORT

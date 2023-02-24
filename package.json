@@ -1,19 +1,34 @@
 {
-	"name": "Latteau-PTZ-Visca",
+	"name": "Latteau-PTZ-Camera-Visca",
 	"version": "1.0",
+	"type": "module",
 	"api_version": "1.0.0",
 	"keywords": [
 		"Protocol",
+		"Sony",
+		"VISCA",
+		"Latteau",
+		"PTZ",
 		"Camera" ],
 	"manufacturer": "Latteau Professional Products",
 	"product": "VISCA",
 	"shortname": "Visca",
-	"description": "Module to control Latteau PTZ cameras using the Visca over IP protocol",
+	"description": "Module to control Latteau PTZ cameras using the Sony VISCA over IP protocol",
 	"main": "index.js",
-	"sponsored": [ "Mike Latta <mike@crosstracks.org>" ],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "Håkon Nessjøen <haakon@bitfocus.io>",
 	"license": "MIT"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Latteau-Professional-Products/companion-module-latteau-visca.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.1.1",
+		"jimp": "^0.22.4",
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.0.0",
+		"@types/jimp": "^0.2.28"
+	}
 }
